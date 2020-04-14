@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mockito.MockitoTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-04-14T09:34:40" hostname="balaji-Inspiron-5559" time="0.303">
+  <properties/>
+  <testcase name="testQuery" classname="mockito.MockitoTest" time="0.231"/>
+  <testcase name="customerReaderTest" classname="mockito.MockitoTest" time="0.071"/>
+  <system-out><![CDATA[[MockitoHint] MockitoTest.customerReaderTest (see javadoc for MockitoHint):
+[MockitoHint] 1. Unused -> at mockito.MockitoTest.customerReaderTest(MockitoTest.java:32)
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
