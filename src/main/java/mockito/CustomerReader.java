@@ -8,6 +8,7 @@ public class CustomerReader {
     }
 
     public String findFullName(long id) {
-        return "Susan Ivanova";
+        Customer customer = this.entityManager.find(Customer.class, id);
+        return customer.firstName+" "+customer.lastName;
     }
 }

@@ -1,11 +1,11 @@
 package mockito;
 
 public class Customer {
-    private final String firstName;
-    private final String lastname;
+    public final String firstName;
+    public final String lastName;
 
     public Customer(String firstName, String lastName) {
         this.firstName = firstName;
-        this.lastname = lastName;
+        this.lastName = lastName;
     }
 }
